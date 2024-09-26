@@ -2,7 +2,7 @@ import random
 from typing import Iterable
 
 def practice(words: Iterable[str]) -> None:
-    print(f"Copy the following:")
+    print("Copy the following:")
     ans = " ".join(words)
     correct = None
     while not correct:
